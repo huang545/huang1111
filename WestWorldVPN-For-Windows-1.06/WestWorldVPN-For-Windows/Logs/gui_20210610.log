@@ -1,0 +1,576 @@
+--------------------------------info[15:16:59]--------------------------------
+System.Exception: 程序运行目录 : D:\Downloads\WestWorldVPN-For-Windows-1.06\WestWorldVPN-For-Windows\WestWorldVPN.exe
+
+ 
+--------------------------------info[15:17:10]--------------------------------
+System.Exception: Main exe start up 1.06
+
+ 
+--------------------------------info[15:17:10]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/system/default/init?config_version=
+
+ 
+--------------------------------info[15:17:11]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/system/default/init?config_version=
+
+ 
+--------------------------------info[15:17:12]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/system/default/init?config_version=
+
+ 
+--------------------------------网络请求异常：基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。[15:17:12]--------------------------------
+System.Net.WebException: 基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。 ---> System.Security.Authentication.AuthenticationException: 根据验证过程，远程证书无效。
+   在 System.Net.Security.SslState.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, Exception exception)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   在 System.Net.TlsStream.CallProcessAuthentication(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   在 System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 WestWorldVPN.App.Library.Api.Get(String path, LocalConfig config, Int32 retryTimes)
+
+ 
+--------------------------------info[15:17:14]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/account/get-info
+
+ 
+--------------------------------info[15:17:14]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/account/get-info
+
+ 
+--------------------------------info[15:17:14]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/account/get-info
+
+ 
+--------------------------------网络请求异常：基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。[15:17:15]--------------------------------
+System.Net.WebException: 基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。 ---> System.Security.Authentication.AuthenticationException: 根据验证过程，远程证书无效。
+   在 System.Net.Security.SslState.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, Exception exception)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   在 System.Net.TlsStream.CallProcessAuthentication(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   在 System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 WestWorldVPN.App.Library.Api.Get(String path, LocalConfig config, Int32 retryTimes)
+
+ 
+--------------------------------info[15:17:15]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/system/default/init?config_version=
+
+ 
+--------------------------------info[15:17:15]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/node/get-list?limit=500&net_type=TROJAN&request_platform=APP_WINDOWS
+
+ 
+--------------------------------info[15:17:15]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/system/default/init?config_version=
+
+ 
+--------------------------------info[15:17:15]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/node/get-list?limit=500&net_type=TROJAN&request_platform=APP_WINDOWS
+
+ 
+--------------------------------info[15:17:15]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/node/get-list?limit=500&net_type=TROJAN&request_platform=APP_WINDOWS
+
+ 
+--------------------------------info[15:17:15]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/system/default/init?config_version=
+
+ 
+--------------------------------网络请求异常：基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。[15:17:15]--------------------------------
+System.Net.WebException: 基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。 ---> System.Security.Authentication.AuthenticationException: 根据验证过程，远程证书无效。
+   在 System.Net.Security.SslState.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, Exception exception)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   在 System.Net.TlsStream.CallProcessAuthentication(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   在 System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 WestWorldVPN.App.Library.Api.Get(String path, LocalConfig config, Int32 retryTimes)
+
+ 
+--------------------------------网络请求异常：基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。[15:17:15]--------------------------------
+System.Net.WebException: 基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。 ---> System.Security.Authentication.AuthenticationException: 根据验证过程，远程证书无效。
+   在 System.Net.Security.SslState.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, Exception exception)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   在 System.Net.TlsStream.CallProcessAuthentication(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   在 System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 WestWorldVPN.App.Library.Api.Get(String path, LocalConfig config, Int32 retryTimes)
+
+ 
+--------------------------------info[15:17:35]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/node/get-list?limit=500&net_type=TROJAN&request_platform=APP_WINDOWS
+
+ 
+--------------------------------info[15:17:36]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/node/get-list?limit=500&net_type=TROJAN&request_platform=APP_WINDOWS
+
+ 
+--------------------------------info[15:17:36]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/node/get-list?limit=500&net_type=TROJAN&request_platform=APP_WINDOWS
+
+ 
+--------------------------------网络请求异常：基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。[15:17:36]--------------------------------
+System.Net.WebException: 基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。 ---> System.Security.Authentication.AuthenticationException: 根据验证过程，远程证书无效。
+   在 System.Net.Security.SslState.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, Exception exception)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   在 System.Net.TlsStream.CallProcessAuthentication(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   在 System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 WestWorldVPN.App.Library.Api.Get(String path, LocalConfig config, Int32 retryTimes)
+
+ 
+--------------------------------info[15:18:13]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/node/get-list?limit=500&net_type=TROJAN&request_platform=APP_WINDOWS
+
+ 
+--------------------------------info[15:18:13]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/node/get-list?limit=500&net_type=TROJAN&request_platform=APP_WINDOWS
+
+ 
+--------------------------------info[15:18:13]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/node/get-list?limit=500&net_type=TROJAN&request_platform=APP_WINDOWS
+
+ 
+--------------------------------网络请求异常：基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。[15:18:13]--------------------------------
+System.Net.WebException: 基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。 ---> System.Security.Authentication.AuthenticationException: 根据验证过程，远程证书无效。
+   在 System.Net.Security.SslState.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, Exception exception)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   在 System.Net.TlsStream.CallProcessAuthentication(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   在 System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 WestWorldVPN.App.Library.Api.Get(String path, LocalConfig config, Int32 retryTimes)
+
+ 
+--------------------------------info[15:22:50]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/account/get-info
+
+ 
+--------------------------------info[15:22:51]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/system/default/init?config_version=
+
+ 
+--------------------------------info[15:22:51]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/node/get-list?limit=500&net_type=TROJAN&request_platform=APP_WINDOWS
+
+ 
+--------------------------------info[15:22:56]--------------------------------
+System.Exception: 程序运行目录 : D:\Downloads\WestWorldVPN-For-Windows-1.06\WestWorldVPN-For-Windows\WestWorldVPN.exe
+
+ 
+--------------------------------info[15:22:56]--------------------------------
+System.Exception: Main exe start up 1.06
+
+ 
+--------------------------------info[15:22:56]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/system/default/init?config_version=014ee0f023dc315c406a3c9af7abe12e
+
+ 
+--------------------------------info[15:23:24]--------------------------------
+System.Exception: 程序运行目录 : D:\Downloads\WestWorldVPN-For-Windows-1.06\WestWorldVPN-For-Windows\WestWorldVPN.exe
+
+ 
+--------------------------------info[15:23:24]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/account/get-info
+
+ 
+--------------------------------info[15:23:26]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/system/default/init?config_version=014ee0f023dc315c406a3c9af7abe12e
+
+ 
+--------------------------------info[15:23:26]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/node/get-list?limit=500&net_type=TROJAN&request_platform=APP_WINDOWS
+
+ 
+--------------------------------info[15:23:50]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/node/get-list?limit=500&net_type=TROJAN&request_platform=APP_WINDOWS
+
+ 
+--------------------------------info[15:23:53]--------------------------------
+System.Exception: PAC Webserver prefixes http://127.0.0.1:21883/pac/
+
+ 
+--------------------------------info[15:23:53]--------------------------------
+System.Exception: PAC Webserver running...
+
+ 
+--------------------------------info[15:23:53]--------------------------------
+System.Exception: PAC Webserver at 127.0.0.1:21883
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[15:23:55]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   在 System.Net.HttpListener.GetContext()
+   在 WestWorldVPN.Component.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
+--------------------------------info[15:23:56]--------------------------------
+System.Exception: PAC Webserver prefixes http://127.0.0.1:21883/pac/
+
+ 
+--------------------------------info[15:23:56]--------------------------------
+System.Exception: PAC Webserver running...
+
+ 
+--------------------------------info[15:23:56]--------------------------------
+System.Exception: PAC Webserver at 127.0.0.1:21883
+
+ 
+--------------------------------info[15:23:56]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[15:23:56]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[15:23:56]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[15:23:56]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[15:24:13]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   在 System.Net.HttpListener.GetContext()
+   在 WestWorldVPN.Component.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
+--------------------------------info[15:24:15]--------------------------------
+System.Exception: PAC Webserver prefixes http://127.0.0.1:21883/pac/
+
+ 
+--------------------------------info[15:24:15]--------------------------------
+System.Exception: PAC Webserver at 127.0.0.1:21883
+
+ 
+--------------------------------info[15:24:15]--------------------------------
+System.Exception: PAC Webserver running...
+
+ 
+--------------------------------info[15:24:15]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[15:24:15]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[15:25:49]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/account/get-info
+
+ 
+--------------------------------info[15:25:50]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/system/default/init?config_version=c37fa0e2da220c47ec0e3717e8376148
+
+ 
+--------------------------------info[15:25:50]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/node/get-list?limit=500&net_type=TROJAN&request_platform=APP_WINDOWS
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[15:25:51]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   在 System.Net.HttpListener.GetContext()
+   在 WestWorldVPN.Component.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
+--------------------------------info[15:25:53]--------------------------------
+System.Exception: 程序运行目录 : D:\Downloads\WestWorldVPN-For-Windows-1.06\WestWorldVPN-For-Windows\WestWorldVPN.exe
+
+ 
+--------------------------------info[15:25:53]--------------------------------
+System.Exception: Main exe start up 1.06
+
+ 
+--------------------------------info[15:25:53]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/system/default/init?config_version=64e3e1f487ff1dd6bb2c97bb31362dde
+
+ 
+--------------------------------info[15:25:54]--------------------------------
+System.Exception: PAC Webserver prefixes http://127.0.0.1:21883/pac/
+
+ 
+--------------------------------info[15:25:54]--------------------------------
+System.Exception: PAC Webserver at 127.0.0.1:21883
+
+ 
+--------------------------------info[15:25:54]--------------------------------
+System.Exception: PAC Webserver running...
+
+ 
+--------------------------------info[15:25:54]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[15:25:56]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[15:25:56]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[15:26:04]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[15:26:04]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[15:28:11]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[15:41:04]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[15:41:04]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[15:42:14]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[15:44:16]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[15:50:46]--------------------------------
+System.Exception: 程序运行目录 : D:\Downloads\WestWorldVPN-For-Windows-1.06\WestWorldVPN-For-Windows\WestWorldVPN.exe
+
+ 
+--------------------------------info[15:50:49]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[15:50:49]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[15:53:59]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[15:54:36]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/account/get-info
+
+ 
+--------------------------------info[15:54:37]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/system/default/init?config_version=d3a14ec4d839c43984c33579bf5fc0fe
+
+ 
+--------------------------------info[15:54:37]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/node/get-list?limit=500&net_type=TROJAN&request_platform=APP_WINDOWS
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[15:54:38]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   在 System.Net.HttpListener.GetContext()
+   在 WestWorldVPN.Component.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
+--------------------------------info[16:54:46]--------------------------------
+System.Exception: 程序运行目录 : D:\Downloads\WestWorldVPN-For-Windows-1.06\WestWorldVPN-For-Windows\WestWorldVPN.exe
+
+ 
+--------------------------------info[16:54:46]--------------------------------
+System.Exception: Main exe start up 1.06
+
+ 
+--------------------------------info[16:54:46]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/system/default/init?config_version=be6b740486b6b9af351b75a097463a08
+
+ 
+--------------------------------info[16:54:48]--------------------------------
+System.Exception: PAC Webserver prefixes http://127.0.0.1:21883/pac/
+
+ 
+--------------------------------info[16:54:48]--------------------------------
+System.Exception: PAC Webserver at 127.0.0.1:21883
+
+ 
+--------------------------------info[16:54:48]--------------------------------
+System.Exception: PAC Webserver running...
+
+ 
+--------------------------------info[16:54:48]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[16:54:48]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[16:54:48]--------------------------------
+System.Exception: PAC Webserver Request 127.0.0.1
+
+ 
+--------------------------------info[16:54:53]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/account/get-info
+
+ 
+--------------------------------info[16:54:53]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/system/default/init?config_version=b92201c1d8b66f7d27a118280954da93
+
+ 
+--------------------------------info[16:54:53]--------------------------------
+System.Exception: 网络请求地址：https://xbsj9855.xyz/user/node/get-list?limit=500&net_type=TROJAN&request_platform=APP_WINDOWS
+
+ 
+--------------------------------由于线程退出或应用程序请求，已中止 I/O 操作。[16:54:54]--------------------------------
+System.Net.HttpListenerException (0x80004005): 由于线程退出或应用程序请求，已中止 I/O 操作。
+   在 System.Net.HttpListener.GetContext()
+   在 WestWorldVPN.Component.HttpWebServer.<Run>b__4_0(Object o)
+
+ 
